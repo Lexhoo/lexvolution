@@ -289,7 +289,7 @@ a:focus {
 .quote_btn-container a {
     display: inline-block;
     padding: 5px 15px;
-    background-color: #fc5d35;
+    /* background-color: #fc5d35; */
     color: #f7f7f7;
     font-size: 14px;
     text-transform: uppercase;
@@ -949,7 +949,7 @@ a:focus {
 /* info section */
 
 .info_section {
-    background-color: #060807;
+    background-color: #010201;
     color: #ffffff;
 }
 
@@ -1022,7 +1022,7 @@ a:focus {
 /* footer section*/
 
 .footer_section {
-    background-color: #252525;
+    background-color: #010201;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
