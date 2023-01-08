@@ -20,8 +20,8 @@ body {
 }
 
 .layout_padding {
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 45px;
+    padding-bottom: 45px;
 }
 
 .layout_padding2 {
@@ -308,9 +308,10 @@ a:focus {
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start;
-    background-image: url(../images/DSC_2902.JPG);
+    background-image: url(../images/DSC_2902.png);
     background-size: cover;
     background-position: top left;
+    margin-left: 50px;
 }
 
 .slider_section .carousel {
@@ -318,7 +319,7 @@ a:focus {
 }
 
 .slider_section .detail-box {
-    padding: 25px;
+    padding: 15px;
 }
 
 .slider_section .detail-box h1 {
@@ -355,7 +356,7 @@ a:focus {
 }
 
 .slider_section #carouselExampleIndicators {
-    margin: 200px 0 75px -75px;
+    margin: 188px 0 172px -21px;
     position: unset;
 }
 
