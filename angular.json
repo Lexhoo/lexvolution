@@ -24,6 +24,7 @@
                             "src/favicon.ico",
                             "src/assets",
                             "src/_redirects",
+                            "src/robot.txt",
                             "src/sitemap.xml"
                         ],
                         "styles": [
