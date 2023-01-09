@@ -8,6 +8,7 @@ import { NavbarComponent } from './pages/navbar/navbar.component';
 import { MentionsComponent } from './pages/mentions/mentions.component';
 import { BioComponent } from './pages/bio/bio.component';
 import { FormsModule } from '@angular/forms';
+import { ContactComponent } from './pages/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FormsModule } from '@angular/forms';
     PresentationComponent,
     NavbarComponent,
     MentionsComponent,
-    BioComponent
+    BioComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

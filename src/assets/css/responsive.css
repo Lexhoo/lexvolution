@@ -78,9 +78,9 @@
     .hero_area .menu_box .social_container {
         display: none;
     }
-    .slider_section {
+    /* .slider_section {
         margin-top: 25px;
-    }
+    } */
     .slider_section #carouselExampleIndicators {
         margin: 145px 0 75px 25px;
     }
