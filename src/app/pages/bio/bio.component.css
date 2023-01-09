@@ -1,0 +1,6 @@
+*,
+ ::after,
+ ::before {
+    box-sizing: border-box;
+    background-image: url(../../../assets/images/DSC_2936.png);
+}

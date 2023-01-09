@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { NavbarComponent } from './pages/navbar/navbar.component';
 import { MentionsComponent } from './pages/mentions/mentions.component';
+import { BioComponent } from './pages/bio/bio.component';
 
 
 const routes: Routes = [
@@ -15,6 +16,11 @@ const routes: Routes = [
   {
     path: 'mentions',
     component: MentionsComponent
+  },
+
+  {
+    path: 'bio',
+    component: BioComponent
   }
 
 
