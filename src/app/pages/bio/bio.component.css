@@ -1,21 +1,35 @@
-*,
- ::after,
- ::before {
-    box-sizing: border-box;
-}
+    *,
+     ::after,
+     ::before {
+        box-sizing: border-box;
+    }
 
-.men_section .box {
-    color: #00000075;
-}
+    .men_section .box {
+        color: #00000075;
+    }
 
-body {
-    background-color: #37009175;
-}
+    body {
+        background-color: #37009175;
+    }
 
-img {
-    width: 100%;
-}
+    img {
+        width: 100%;
+    }
 
-.col-md-7 {
-    width: 100%
-}
+    .col-md-7 {
+        width: 100%;
+    }
+
+    .men_section .detail-box {
+        padding-left: 33px;
+        padding-right: 33px;
+        margin-top: 27px;
+    }
+
+    .layout_padding-bottom {
+        padding-bottom: 0px;
+    }
+
+    p {
+        font-size: 17px;
+    }

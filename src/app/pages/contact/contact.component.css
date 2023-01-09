@@ -15,18 +15,17 @@ body {
 }
 
 .layout_margin {
-    margin-top: 90px;
-    margin-bottom: 90px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .layout_padding {
     padding-top: 45px;
-    padding-bottom: 45px;
+    padding-bottom: 0px;
 }
 
 .layout_padding2 {
     padding-top: 45px;
-    padding-bottom: 45px;
 }
 
 .layout_padding2-top {
@@ -34,7 +33,7 @@ body {
 }
 
 .layout_padding2-bottom {
-    padding-bottom: 45px;
+    padding-bottom: 0px;
 }
 
 .layout_padding-top {
