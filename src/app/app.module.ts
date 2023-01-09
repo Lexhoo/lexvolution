@@ -7,6 +7,7 @@ import { PresentationComponent } from './pages/presentation/presentation.compone
 import { NavbarComponent } from './pages/navbar/navbar.component';
 import { MentionsComponent } from './pages/mentions/mentions.component';
 import { BioComponent } from './pages/bio/bio.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { BioComponent } from './pages/bio/bio.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

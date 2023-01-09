@@ -182,6 +182,13 @@ body {
     transform: rotate(-45deg) translateY(-15.5px);
 }
 
+.top-btn {
+    border: 7px solid #37009130;
+    color: whitesmoke;
+    background-color: #270168;
+    text-transform: uppercase;
+}
+
 .overlay {
     height: 100%;
     width: 0;
@@ -814,7 +821,7 @@ a:focus {
     color: #171620;
 }
 
-.subscribe_section .subscribe_form form input::placeholder {
+.subscribe_section .subscribe_form form input:placeholder {
     color: #171620;
 }
 

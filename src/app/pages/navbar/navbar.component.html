@@ -45,7 +45,7 @@
                 <a [routerLink]="['/bio']" routerLinkActive="router-link-active">Biographie</a>
                 <a href="https://therichpost.com">Contact Booking</a>
                 <a href="https://therichpost.com">Demos Soundcloud</a>
-                <a href="https://therichpost.com">Instagram</a>
+                <a href="https://therichpost.com">Suivre sur Instagram</a>
                 <a href="https://therichpost.com">Mentions Légales</a>
             </div>
         </div>
@@ -305,9 +305,7 @@
                         </ul> -->
                         </div>
                         <div class="col-md-6 ">
-                            <a href="https://therichpost.com " class="btn12 ">
-              Buy Now
-              </a>
+                            <button type="button" class="btn btn-primary" *ngIf="showBtn$ | async" class="top-btn" (click)="gotoTop()">Retour En Haut</button>
                             <div class="info_link-box ">
                                 <!-- <a href="# ">
                                 <span>+33663112569</span>
