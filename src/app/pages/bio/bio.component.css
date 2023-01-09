@@ -2,5 +2,12 @@
  ::after,
  ::before {
     box-sizing: border-box;
-    background-image: url(../../../assets/images/DSC_2936.png);
+}
+
+.men_section .box {
+    color: #00000075;
+}
+
+body {
+    background-color: #37009175;
 }
