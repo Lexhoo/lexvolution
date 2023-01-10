@@ -315,7 +315,7 @@ a:focus {
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start;
-    /* background-image: url(../images/DSC_2902.JPG); */
+    background-image: url(../../../assets/images/DSC_2902-min.png);
     background-size: cover;
     background-position: top left;
 }
