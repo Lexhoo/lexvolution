@@ -315,7 +315,7 @@ a:focus {
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start;
-    background-image: url(../../../assets/images/DSC_2902-min.png);
+    background-image: url(../../../assets/images/DSC_2902w2.jpg);
     background-size: cover;
     background-position: top left;
 }
@@ -1052,6 +1052,3 @@ a:focus {
 button {
     outline: none!important;
 }
-
-
-/*# sourceMappingURL=style.css.map */

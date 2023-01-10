@@ -1052,5 +1052,8 @@ button {
     outline: none!important;
 }
 
-
-/*# sourceMappingURL=style.css.map */
+h4 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 15px;
+}
