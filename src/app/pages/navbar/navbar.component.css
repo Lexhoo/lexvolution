@@ -316,6 +316,7 @@ a:focus {
     -ms-flex-pack: start;
     justify-content: flex-start;
     background-image: url(../../../assets/images/DSC_2902w2.jpg);
+    background-position-y: 25%;
     background-size: cover;
     background-position: top left;
 }
@@ -512,6 +513,7 @@ a:focus {
 
 .men_section .img-box img {
     max-width: 100%;
+    margin: auto;
 }
 
 .men_section .detail-box {

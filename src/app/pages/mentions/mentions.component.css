@@ -1,0 +1,19 @@
+p {
+    color: #ffffff;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    font-weight: bold;
+    position: relative;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.container {
+    margin-top: 20px;
+}
