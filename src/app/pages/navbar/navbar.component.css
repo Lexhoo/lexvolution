@@ -515,10 +515,6 @@
         margin: auto;
     }
 
-    .men_section .detail-box {
-        padding-left: 75px;
-    }
-
     .men_section .detail-box .heading_container h2 {
         width: 70%;
     }
@@ -591,10 +587,6 @@
 
     .modern_section .img-box img {
         max-width: 100%;
-    }
-
-    .modern_section .detail-box {
-        padding-left: 75px;
     }
 
     .modern_section .detail-box .heading_container h2 {
@@ -734,7 +726,7 @@
 
     .client_section .detail-box h5 {
         text-transform: uppercase;
-        color: #240447;
+        color: #37c0fc;
         font-weight: bold;
     }
 
