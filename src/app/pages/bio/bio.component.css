@@ -124,3 +124,12 @@
     .footer_section a {
         color: #ffffff;
     }
+
+    .top-btn {
+        border: 7px solid #37009130;
+        color: whitesmoke;
+        background-color: #270168;
+        text-transform: uppercase;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
