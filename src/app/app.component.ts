@@ -7,6 +7,7 @@ import { debounceTime, fromEvent, map, tap  } from 'rxjs';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  title = 'djlxv';
   name = 'Angular ' + VERSION.major;
 
   showBtn$ = fromEvent(document, 'scroll').pipe(
