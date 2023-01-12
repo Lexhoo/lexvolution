@@ -23,4 +23,5 @@ export class NavbarComponent {
       behavior: 'smooth',
     });
   }
+
 }
