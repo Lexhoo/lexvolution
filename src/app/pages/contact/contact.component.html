@@ -1,37 +1,57 @@
-<section class="contact_section layout_padding-bottom ">
-    <div class="container ">
-        <div class="box layout_padding2 ">
-            <div class="row ">
-                <div class="col-lg-6 col-md-8 mx-auto ">
-                    <div class="contact-form ">
-                        <div class="heading_container ">
-                            <h2 id="contact">
-                                Contact & Booking
-                            </h2>
-                        </div>
-                        <h4>Pour toute demande devis veuillez remplir le formulaire ci-dessous</h4>
-                        <form>
-                            <div>
-                                <input type="text " placeholder="Nom Prénom / Compagnie " />
+<div class="menu_box">
+    <div class="navbar-collapse" id="">
+        <div class="custom_menu-btn">
+            <button onclick="openNav()">
+      <span class="s-1"> </span>
+      <span class="s-2"> </span>
+      <span class="s-3"> </span>
+  </button>
+        </div>
+        <div id="myNav" class="overlay">
+            <div class="overlay-content">
+                <a [routerLink]="['/home']" routerLinkActive="router-link-active">Accueil</a>
+                <a [routerLink]="['/bio']" routerLinkActive="router-link-active">Biographie</a>
+                <a href="https://on.soundcloud.com/paoSR ">Demos Soundcloud</a>
+                <a href="https://instagram.com/dj_lexvolution?igshid=YmMyMTA2M2Y= ">Suivre sur Instagram</a>
+                <a [routerLink]="['/mentions']" routerLinkActive="router-link-active">Mentions Légales</a>
+
+            </div>
+        </div>
+    </div>
+    <section class="contact_section layout_padding-bottom ">
+        <div class="container ">
+            <div class="box layout_padding2 ">
+                <div class="row ">
+                    <div class="col-lg-6 col-md-8 mx-auto ">
+                        <div class="contact-form ">
+                            <div class="heading_container ">
+                                <h2 id="contact">
+                                    Contact & Booking
+                                </h2>
                             </div>
-                            <div>
-                                <input type="text " placeholder="Phone " />
-                            </div>
-                            <div>
-                                <input type="email " placeholder="Adresse Mail" />
-                            </div>
-                            <div>
-                                <input type="text " placeholder="Message " class="input_message " />
-                            </div>
-                            <div class="d-flex justify-content-center ">
-                                <button type="button " class="btn_on-hover ">
+                            <h4>Pour toute demande devis veuillez remplir le formulaire ci-dessous</h4>
+                            <form>
+                                <div>
+                                    <input type="text " placeholder="Nom Prénom / Compagnie " />
+                                </div>
+                                <div>
+                                    <input type="text " placeholder="Phone " />
+                                </div>
+                                <div>
+                                    <input type="email " placeholder="Adresse Mail" />
+                                </div>
+                                <div>
+                                    <input type="text " placeholder="Message " class="input_message " />
+                                </div>
+                                <div class="d-flex justify-content-center ">
+                                    <button type="button " class="btn_on-hover ">
             Send
         </button>
-                            </div>
-                        </form>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
