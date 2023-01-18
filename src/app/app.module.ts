@@ -7,6 +7,11 @@ import { NavbarComponent } from './pages/navbar/navbar.component';
 import { MentionsComponent } from './pages/mentions/mentions.component';
 import { FormsModule } from '@angular/forms';
 import { ContactComponent } from './pages/contact/contact.component';
+import { HttpClientModule } from '@angular/common/http';
+import { MessageService } from './message.service';
+
+
+
 
 @NgModule({
   declarations: [
@@ -18,9 +23,10 @@ import { ContactComponent } from './pages/contact/contact.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [MessageService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
