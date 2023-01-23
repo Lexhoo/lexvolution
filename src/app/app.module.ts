@@ -5,10 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './pages/navbar/navbar.component';
 import { MentionsComponent } from './pages/mentions/mentions.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ContactComponent } from './pages/contact/contact.component';
 import { HttpClientModule } from '@angular/common/http';
-import { MessageService } from './message.service';
+import { EmailComponent } from './pages/email/email.component';
 
 
 
@@ -18,15 +18,17 @@ import { MessageService } from './message.service';
     AppComponent,
     NavbarComponent,
     MentionsComponent,
-    ContactComponent
+    ContactComponent,
+    EmailComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
-  providers: [MessageService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
