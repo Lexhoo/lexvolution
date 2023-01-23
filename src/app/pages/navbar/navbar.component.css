@@ -141,7 +141,7 @@
     
     .custom_menu-btn button {
         z-index: 9;
-        position: absolute;
+        position: fixed;
         right: 16px;
         top: 14px;
         outline: none;
