@@ -48,10 +48,12 @@ get f(): { [key: string]: AbstractControl} {
       this.service.send(this.email).subscribe({
         next : (data) => {
           this.onReset();
-          alert("ca marche")
+
         },
-        error : (error) => alert("oups erreur"),
-        complete: () => alert('complete !!')
+        error : (error) => {
+
+        },
+
       });
     }
 
