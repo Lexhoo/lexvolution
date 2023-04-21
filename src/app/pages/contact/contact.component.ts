@@ -27,10 +27,10 @@ export class ContactComponent implements OnInit {
 
     ngOnInit(): void {
       this.form = this.builder.group({
-        nom: [''],
-        email: [''],
-        message: [''],
-        phone: [''],
+        nom:  ['', [Validators.required]],
+        email: ['', [Validators.required, Validators.email]],
+        message:  ['', [Validators.required]],
+        phone:  [''],
       })
     }
 
@@ -45,36 +45,21 @@ get f(): { [key: string]: AbstractControl} {
       this.email.civilite = "M";
       this.email.nom = form.nom;
       this.email.message = form.message;
-      this.service.send(this.email).subscribe({
-        next : (data) => {
-          this.onReset();
-
-        },
-        error : (error) => {
-
-        },
-
-      });
-    }
-
-    onReset(): void {
-      this.submitted = false;
-      this.form.reset();
-      this.messageValid = true;
-    }
-
-  showBtn$ = fromEvent(document, 'scroll').pipe(
-    debounceTime(50),
-    map(() => window.scrollY > 500),
-    tap(() => console.log('sas'))
-  );
-
-  // not Cross browsing (works on chrome - firefox)
-  gotoTop() {
-    window.scroll({
-      top: 0,
-      left: 0,
-      behavior: 'smooth',
-    });
+      console.log(this.email.message);
+    this.service.send(this.email).subscribe({
+      next : (data) => {
+        this.onReset();
+        alert("ca fonctionne")
+      },
+      error : (error) => alert("oups erreur "),
+      complete: () => alert('complete')
+  });
   }
+
+  onReset(): void {
+    this.submitted = false;
+    this.form.reset();
+    this.messageValid = true;
+  }
+
 }
