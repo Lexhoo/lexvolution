@@ -323,8 +323,9 @@
     }
 
     .slider_section .detail-box {
-        padding: 0px;
-        margin-left: 19%;
+        padding: 2%;
+        margin-left: 21%;
+        margin-top: 6%;
     }
 
     .slider_section .detail-box h1 {
@@ -944,7 +945,7 @@
     /* info section */
 
     .info_section {
-        background-color: #010201;
+        background-color: #000000;
         color: #ff9100f7;
     }
 
@@ -970,7 +971,7 @@
     }
 
     .info_section ul li a:hover {
-        color: #060807!important;
+        color: #000000!important;
     }
 
     .info_section .info_link-box a {
@@ -996,7 +997,7 @@
     }
 
     .info_section .info_link-box a:hover span {
-        color: #060807!important;
+        color: #000000!important;
     }
 
     .info_section .info_social {
@@ -1014,7 +1015,7 @@
     /* footer section*/
 
     .footer_section {
-        background-color: #010201;
+        background-color: #000000;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
